@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-11T22:53:02 IST" name="Default suite" finished-at="2022-03-11T22:54:02 IST" duration-ms="60144">
+    <groups>
+    </groups>
+    <test started-at="2022-03-11T22:53:02 IST" name="Default test" finished-at="2022-03-11T22:54:02 IST" duration-ms="60144">
+      <class name="agile.TestClassAddProductToCart">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:agile.TestClassAddProductToCart@614ca7df]" started-at="2022-03-11T22:53:02 IST" name="launchTheBrowser" finished-at="2022-03-11T22:53:05 IST" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createObjectOfPOMClasses()[pri:0, instance:agile.TestClassAddProductToCart@614ca7df]" started-at="2022-03-11T22:53:05 IST" name="createObjectOfPOMClasses" finished-at="2022-03-11T22:53:05 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjectOfPOMClasses -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:agile.TestClassAddProductToCart@614ca7df]" started-at="2022-03-11T22:53:05 IST" name="loginToApplication" finished-at="2022-03-11T22:53:22 IST" duration-ms="17298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyAddToCartAndRemoveFromCartFunctionality()[pri:0, instance:agile.TestClassAddProductToCart@614ca7df]" started-at="2022-03-11T22:53:22 IST" name="verifyAddToCartAndRemoveFromCartFunctionality" finished-at="2022-03-11T22:53:40 IST" duration-ms="17690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartAndRemoveFromCartFunctionality -->
+        <test-method is-config="true" signature="logoutFromTheApplication(org.testng.ITestResult)[pri:0, instance:agile.TestClassAddProductToCart@614ca7df]" started-at="2022-03-11T22:53:40 IST" name="logoutFromTheApplication" finished-at="2022-03-11T22:53:41 IST" duration-ms="515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddToCartAndRemoveFromCartFunctionality status=SUCCESS method=TestClassAddProductToCart.verifyAddToCartAndRemoveFromCartFunctionality()[pri:0, instance:agile.TestClassAddProductToCart@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromTheApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:agile.TestClassAddProductToCart@614ca7df]" started-at="2022-03-11T22:53:41 IST" name="loginToApplication" finished-at="2022-03-11T22:53:51 IST" duration-ms="10395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyBuyNowFunctionality()[pri:0, instance:agile.TestClassAddProductToCart@614ca7df]" started-at="2022-03-11T22:53:51 IST" name="verifyBuyNowFunctionality" finished-at="2022-03-11T22:54:01 IST" duration-ms="10080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNowFunctionality -->
+        <test-method is-config="true" signature="logoutFromTheApplication(org.testng.ITestResult)[pri:0, instance:agile.TestClassAddProductToCart@614ca7df]" started-at="2022-03-11T22:54:01 IST" name="logoutFromTheApplication" finished-at="2022-03-11T22:54:02 IST" duration-ms="401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBuyNowFunctionality status=SUCCESS method=TestClassAddProductToCart.verifyBuyNowFunctionality()[pri:0, instance:agile.TestClassAddProductToCart@614ca7df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromTheApplication -->
+        <test-method is-config="true" signature="clearObjectOfPOMClasses()[pri:0, instance:agile.TestClassAddProductToCart@614ca7df]" started-at="2022-03-11T22:54:02 IST" name="clearObjectOfPOMClasses" finished-at="2022-03-11T22:54:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjectOfPOMClasses -->
+        <test-method is-config="true" signature="closeTheObject()[pri:0, instance:agile.TestClassAddProductToCart@614ca7df]" started-at="2022-03-11T22:54:02 IST" name="closeTheObject" finished-at="2022-03-11T22:54:02 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheObject -->
+      </class> <!-- agile.TestClassAddProductToCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
